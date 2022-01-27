@@ -12,9 +12,8 @@ body {
 }
 
 header img{
-  margin-left: 250px;
-  margin-bottom: 20px;
-  height: 200px ;
+  margin-left: 220px;
+  padding: 20px;
   width: 850px;
 }
 header h1 {
@@ -124,6 +123,7 @@ aside li {
 
 #doctors article {
   padding: 30px;
+  padding-bottom: 75px;
 }
 
 /*====TABLE (Season Summary)====*/
