@@ -8,9 +8,9 @@
     <title>Doctor Who Encyclopedia - History</title>
     <link rel="icon" href="logo.jpeg">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2? family = Roboto & display = swap">
-    <link href="http://fonts.cdnfonts.com/css/axiforma" rel="stylesheet">
+
 </head>
+
 <body>
     <header>
         <img src="logo6black.png" alt="logodowhoencyclopedia" width="20">
@@ -26,10 +26,31 @@
             <li><a href="form.html">Contact</a></li>
         </ul>
     </nav>
-    </body>
-    <main>
+    <main class="contact">
+        <h2>Contact</h2>
         <form>
-            
+            <label for="fname">FRIST NAME<abbr title="required" aria-label="required">*</abbr></label><br>
+            <input type="text" id="fname" name="fname"><br>
+
+            <label for="lname">LAST NAME<abbr title="required" aria-label="required">*</abbr></label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="email">YOUR EMAIL<abbr title="required" aria-label="required">*</abbr></label><br>
+            <input type="text" id="email" name="email"><br><br>
+
+            <label for="msg">YOUR COMENTARI</label><br>
+            <textarea id="msg" name="user_message"></textarea><br><br>
+
+
+
+            <input type="submit" value="Submit">
         </form>
     </main>
+    <footer>
+        <p>Doctor Who Encyclopedia is copyright © 2021. All rights reserved. Doctor Who is copyright © brithish
+            broadcasting corporation (BBC) 1963,2021.</p>
+        <address><a href="doctorwhoencyclopedia@hotmail.com">Contact</a></address>
+    </footer>
+</body>
+
 </html>
