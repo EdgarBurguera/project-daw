@@ -9,7 +9,7 @@ body {
   background-size: 300px;
   width: 1300px;
   margin: 0 auto;
-  font-family: axiforma;
+  font-family: Poppins, sans-serif;
   overflow: auto;
 }
 
@@ -187,6 +187,15 @@ th.era {
 div.flex {
   display: flex;
 }
+/* ====VIDEOS==== */
+
+.videoera {
+  padding: 30px;
+  background-image: url(yellow-diamonds.svg);
+}
+.videoera section {
+  margin: 10px;
+}
 
 /* ====FORM (Contact)==== */
 
@@ -194,8 +203,6 @@ div.flex {
   padding: 10px;
   background-image: url(yellow-diamonds.svg);
 }
-
-.contact form {}
 
 .contact form label, input {
   margin-bottom: 20px;
